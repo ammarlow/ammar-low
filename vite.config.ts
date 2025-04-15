@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   plugins: [react()],
-  base: "/ammar-low",
+  base: "/ammar-low/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
