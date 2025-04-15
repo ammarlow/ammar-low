@@ -1,5 +1,6 @@
 
 import React from 'react';
+import me from '/me.png'
 
 const About = () => {
   const skills = [
@@ -40,7 +41,7 @@ const About = () => {
         <div className="relative group">
           <div className="w-full aspect-square bg-muted rounded-full overflow-hidden">
             <img 
-              src="/me.png" 
+              src="{me}" 
               alt="Profile" 
               className="object-cover w-full h-full"
             />

@@ -2,6 +2,9 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import resumeImage from '/resume.png';
+import slotMachineImage from '/slotmachine.png';
+import vueWorldImage from '/vueworld.png';
+import edQuizImage from '/edquiz.png';
 
 type ProjectType = {
   title: string;
@@ -21,7 +24,7 @@ const projects: ProjectType[] = [
   },
   {
     title: 'Slot Machine App',
-    image: '/slotmachine.png',
+    image: slotMachineImage,
     technologies: ['React', 'Tailwind CSS', 'Vite'],
     liveDemo: 'https://slotmachine-zeta.vercel.app/',
   },
@@ -33,13 +36,13 @@ const projects: ProjectType[] = [
   },
   {
     title: 'Vue World Countries',
-    image: '/vueworld.png',
+    image: vueWorldImage,
     technologies: ['Vue.js', 'World Countries API', 'Bootstrap CSS', 'Axios'],
     liveDemo: 'https://vue-world-countries.vercel.app/',
   },
   {
     title: 'ED Quiz',
-    image: '/edquiz.png',
+    image: edQuizImage,
     technologies: ['Vue.js', 'CSS', 'Vuex', 'Node.js', 'GetResponse'],
     liveDemo: 'https://ed-quiz.vercel.app/',
   },
