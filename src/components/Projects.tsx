@@ -1,6 +1,7 @@
 
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import resumeImage from '/resume.png';
 
 type ProjectType = {
   title: string;
@@ -14,7 +15,7 @@ type ProjectType = {
 const projects: ProjectType[] = [
   {
     title: 'Resume Builder',
-    image: '/resume.png',
+    image: resumeImage,
     technologies: ['React', 'TypeScript', 'Tailwind CSS', 'Vite'],
     liveDemo: 'https://quick-resume-rose.vercel.app/',
   },
