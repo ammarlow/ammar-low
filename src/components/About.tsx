@@ -41,7 +41,7 @@ const About = () => {
         <div className="relative group">
           <div className="w-full aspect-square bg-muted rounded-full overflow-hidden">
             <img 
-              src="{me}" 
+              src={me} 
               alt="Profile" 
               className="object-cover w-full h-full"
             />
