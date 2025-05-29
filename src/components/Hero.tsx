@@ -59,7 +59,7 @@ const Hero = () => {
                     <span className="text-gray-400 mr-4">3</span>
                     <span className="text-green-400 ml-4">skills:</span>
                     <span className="text-blue-400 mx-1">[</span>
-                    <span className="text-orange-400">'React'</span><span>,</span>
+                    <span className="text-orange-400">'Vue.js'</span><span>,</span>
                   </div>
                   <div className="flex animate-typing overflow-hidden whitespace-nowrap opacity-0" style={{ animationDelay: '3s', animationFillMode: 'forwards' }}>
                     <span className="text-gray-400 mr-4">4</span>
