@@ -18,7 +18,7 @@ const Index = () => {
       <main className="pt-16">
         <Hero />
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Projects />
         <Contact />
       </main>
