@@ -46,6 +46,12 @@ const projects: ProjectType[] = [
     technologies: ['Vue.js', 'CSS', 'Vuex', 'Node.js', 'GetResponse'],
     liveDemo: 'https://ed-quiz.vercel.app/',
   },
+  {
+    title: 'Text File Editor App',
+    image: 'https://images.unsplash.com/photo-1517180102446-f3ece451e9d8?w=600&auto=format&fit=crop',
+    technologies: ['React Native', 'Expo', 'NativeWind', 'Expo File System'],
+    github: 'https://github.com/ammarlow/mobiletextfileeditor',
+  },
 ];
 
 const Projects = () => {
